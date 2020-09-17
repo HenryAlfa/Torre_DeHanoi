@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link id="s1" rel="stylesheet" href="./style1.css">
+    <link id="s2" rel="stylesheet" href="./style2.css" disabled=true>
+
+</head>
+
+<body>
+
+    <h1>TORRE DE HANOI</h1>
+    <h4> Reorganize as peças em ordem crescente na última vareta. Lembre-se: Você só pode mover uma peça por vez (sempre a peça de cima) e não pode colocar peças grandes em cima de peças menores. Tente resolver com menos de 10 cliques! 
+    </h4>
+
+    <div id="resultado"></div>
+
+    <div id="main">
+        <div id="start"></div>
+        <div id="offset"></div>
+        <div id="end"></div>
+    </div>
+    <p>Número de cliques
+        <p id="counter"></p>
+    </p>
+    <nav>
+
+        <button class="tema"><a href="javascript:s1.disabled=false; s2.disabled=true;">Tema Claro</a></button>
+        <button class="tema"><a href="javascript:s2.disabled=false; s1.disabled=true;">Tema Escuro</a></button>
+    </nav>
+
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>

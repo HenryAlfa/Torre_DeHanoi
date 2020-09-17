@@ -1,0 +1,178 @@
+@import url('https://fonts.googleapis.com/css2?family=Freckle+Face&family=Patrick+Hand&family=Ribeye+Marrow&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poiret+One&display=swap');
+* {
+    box-sizing: border-box;
+}
+
+body {
+    text-align: center;
+    justify-content: center;
+    background-color: #e6e6ea;
+    font-family: 'Poiret One', cursive;
+}
+
+nav {
+    margin: 15%;
+    padding-top: 0%;
+    margin-bottom: 0%;
+}
+
+h1 {
+    font-family: 'Ribeye Marrow', cursive;
+    font-size: 12vw;
+    font-weight: lighter;
+    background: linear-gradient(to left, #3a86ff 20%, #33a8c7 30%, #ec4067 50%, #ff7300 50%, #ffbe0b 70%);
+    margin: 2% 0%;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+h2 {
+    font-size: 5vw;
+    font-weight: bold;
+    background: linear-gradient(to left, #3a86ff 4%, #8338ec 22%, #ff006e 40%, #ff7300 60%, #ffbe0b 80%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    padding: 2%;
+}
+
+h4 {
+    font-weight: lighter;
+    font-size: 5vw;
+    padding: 6vw;
+    padding-top: 0;
+    padding-bottom: 0%;
+    margin: 0px;
+}
+
+h3 {
+    font-style: italic;
+    color: #9cafb7;
+}
+
+.tema {
+    background-color: #bcd4e6;
+    border-radius: 5%;
+    font-family: 'Poiret One', cursive;
+    font-size: 4vw;
+}
+
+a {
+    color: #006494;
+    font-style: italic;
+}
+
+p {
+    margin: 2% 0% 0% 0%;
+    font-weight: bold;
+    color: #33a8c7;
+    font-size: 4.5vw;
+}
+
+div#start,
+div#offset,
+div#end {
+    display: flex;
+    background: black;
+    width: 1vw;
+    height: 60vw;
+    margin: 15%;
+    margin-top: 2px;
+    margin-bottom: 0;
+    justify-content: flex-end;
+    align-items: center;
+    flex-direction: column;
+}
+
+div#main {
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+}
+
+.disco1 {
+    border-radius: 5px;
+    border: 1px solid white;
+    background: #ffe066;
+    height: 15%;
+    width: 16vw;
+}
+
+.disco2 {
+    border-radius: 5px;
+    border: 1px solid white;
+    background: #ffab00;
+    height: 15%;
+    width: 20vw;
+}
+
+.disco3 {
+    border-radius: 5px;
+    border: 1px solid white;
+    background: #ec4067;
+    height: 15%;
+    width: 24vw;
+}
+
+.disco4 {
+    border-radius: 5px;
+    border: 1px solid white;
+    background: #33a8c7;
+    height: 15%;
+    width: 28vw;
+}
+
+@media only screen and (min-width: 768px) {
+    h1 {
+        font-size: 5vw;
+    }
+    h2 {
+        font-size: 2vw;
+        padding: 1vw;
+    }
+    h4 {
+        font-size: 2vw;
+    }
+    nav {
+        margin: 6%;
+        padding-top: 0%;
+    }
+    .tema {
+        font-size: 1.5vw;
+    }
+    .disco1 {
+        height: 10%;
+        width: 6vw;
+    }
+    .disco2 {
+        height: 10%;
+        width: 9vw;
+    }
+    .disco3 {
+        height: 10%;
+        width: 12vw;
+    }
+    .disco4 {
+        height: 10%;
+        width: 15vw;
+    }
+    p {
+        font-size: 2vw;
+    }
+    div#start,
+    div#offset,
+    div#end {
+        display: flex;
+        background: black;
+        width: 1vw;
+        height: 30vw;
+        margin: 15%;
+        margin-bottom: 0;
+        margin-top: 0;
+        justify-content: flex-end;
+        align-items: center;
+        flex-direction: column;
+    }
+}
